@@ -1,6 +1,7 @@
 def status(i,num_passe):
     barLength = 20 
     status = ""
+    
     progress = (float(i)/(num_passe-1))
     block = int(round(barLength*progress))
     sys.stdout.write('\r')
