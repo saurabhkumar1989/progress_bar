@@ -1,3 +1,4 @@
+import sys
 def status(i,num_passe):
     barLength = 20 
     status = ""
